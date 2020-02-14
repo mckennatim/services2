@@ -1,0 +1,17 @@
+{
+  "name": "s2g",
+  "version": "1.0.0",
+  "description": "stuff2get",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "start": "set NODE_ENV=development&&nodemon -e .js,.json lib/index.js",
+    "prod": "export NODE_ENV=production&&node lib/index.js",
+    "test": "mocha --require ./test/test_helper.js --recursive --slow 4",
+    "test:watch": "npm run test -- --watch"
+  },
+  "author": "Timothy S. McKenna <mckenna.tim@gmail.com>",
+  "license": "MIT"
+}

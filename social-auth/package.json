@@ -1,0 +1,33 @@
+{
+  "name": "node-authentication",
+  "main": "server.js",
+  "scripts": {
+    "prod": "export NODE_ENV=production&&node server.js",
+    "dev": "export NODE_ENV=development&&nodemon -e .ejs,.js,.json server.js",
+    "proddev": "export NODE_ENV=production&&nodemon -e .ejs,.js,.json server.js",
+    "localprod": "set NODE_ENV=production&&nodemon -e .ejs,.js,.json server.js",
+    "localdev": "set NODE_ENV=development&&nodemon -e .ejs,.js,.json server.js",
+    "start": "set NODE_ENV=development&&nodemon -e .ejs,.js,.json server.js"
+  },
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "~1.15.2",
+    "connect-flash": "~0.1.1",
+    "cookie-parser": "~1.4.3",
+    "ejs": "~2.5.2",
+    "express": "~4.14.0",
+    "express-session": "~1.14.1",
+    "jwt-simple": "^0.5.1",
+    "method-override": "~2.3.6",
+    "mongoose": "~4.6.1",
+    "morgan": "~1.7.0",
+    "nodemailer": "^4.0.1",
+    "passport": "~0.3.2",
+    "passport-facebook": "~2.1.1",
+    "passport-github": "^1.1.0",
+    "passport-google-oauth": "1.0.0",
+    "passport-twitter": "~1.0.4",
+    "superagent": "^3.5.2",
+    "tracer": "^0.8.9"
+  }
+}

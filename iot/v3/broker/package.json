@@ -1,0 +1,19 @@
+{
+  "name": "broker",
+  "version": "1.0.0",
+  "description": "all pckages used are in services/broker/package.json",
+  "main": "index.js",
+  "scripts": {
+    "start": "set NODE_ENV=development&&nodemon -e .js,.json index.js",
+    "prod": "export NODE_ENV=production&&node index.js",
+    "dprod": "export NODE_ENV=production&&nodemon index.js",
+    "test": "node ../node_modules/mocha/bin/mocha --watch"
+  },
+  "keywords": [],
+  "author": "Timothy S. McKenna <mckenna.tim@gmail.com> (http://mckennatim.github.io/mckennatim/)",
+  "license": "MIT",
+  "dependencies": {},
+  "directories": {
+    "test": "test"
+  }
+}

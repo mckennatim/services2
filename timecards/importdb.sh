@@ -1,0 +1,1 @@
+mysql -uroot --database=timecards < /mnt/d/downloads/timecards.sql

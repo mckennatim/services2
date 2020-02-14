@@ -1,0 +1,36 @@
+{
+	"extends" : "eslint:recommended",
+  "parser": "babel-eslint",
+	"parserOptions": {
+		"ecmaVersion": 2016,
+		"ecmaFeatures": {
+      "experimentalObjectRestSpread": true,
+      "jsx": true
+	  },
+	  "sourceType": "module"
+	},
+	"env": {
+		"es6": true,
+		"node": true
+	},
+  "globals": {
+    "document": true,
+    "localStorage": true,
+    "window": true,
+    "location": true,
+    "fetch": true
+  },	
+	"rules": {
+    "no-tabs": 1,
+    "no-mixed-spaces-and-tabs": 1,
+		"import/named": 2,
+		"no-console": "off",
+		"no-unused-vars": [1, {"vars": "local"}],
+    "no-case-declarations": "off",
+    "no-useless-escape": "off",
+    "no-class-assign": "off"
+	},
+	"plugins": [
+		"import"
+	]
+}

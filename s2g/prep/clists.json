@@ -1,0 +1,3045 @@
+{
+  "activeList": "Jutebi",
+  "Minohu": {
+    "_id": "5448fbdee47010336375bb22",
+    "lid": "Minohu",
+    "shops": "lowes depot",
+    "stores": [],
+    "timestamp": 1540337469751,
+    "items": [
+      {
+        "product": "Steel wool",
+        "done": true
+      },
+      {
+        "product": "smoke detector Worry Free 10-Year Sealed",
+        "done": true,
+        "tags": [
+          "1001632542 08 003"
+        ]
+      },
+      {
+        "product": "Mouse traps",
+        "done": true
+      },
+      {
+        "product": "Light bulbs",
+        "done": true
+      },
+      {
+        "product": "Light screw",
+        "done": true
+      },
+      {
+        "product": "strike",
+        "done": true,
+        "tags": [
+          "09 20 1000054053"
+        ]
+      },
+      {
+        "product": "FireX Hardwire Smoke and Carbon Monoxide",
+        "done": true,
+        "tags": [
+          "1001824517 08 003"
+        ]
+      },
+      {
+        "product": "Black Plasti Dip",
+        "done": true,
+        "tags": [
+          "Aisle 07",
+          "Bay 018"
+        ]
+      },
+      {
+        "product": "1/4 in. x 1-3/4 in. White Ultrashield Hex-Washer-Head Concrete Anchors (8-Pack)",
+        "done": true,
+        "tags": [
+          "aisle 13 bay015"
+        ]
+      },
+      {
+        "product": "5/16 in. x 1-7/8 in. Steel Magnetic Nut Driver",
+        "done": true,
+        "tags": [
+          "bay 12 aisle 5"
+        ]
+      },
+      {
+        "product": "3/16 in. x 7 in. SDS Carbide Drill Bit",
+        "done": true
+      },
+      {
+        "product": "5/16 in. x 2-1/4 in. Hex-Washer-Head Large Diameter Concrete Anchors (4-Pack)",
+        "done": true
+      },
+      {
+        "product": "(18) Steel Rebar (Common: 0.375-in; Actual: 0.375-in)",
+        "done": true,
+        "tags": [
+          "# 17199 lowes LW 17"
+        ],
+        "amt": {
+          "qty": "",
+          "unit": "2ft"
+        }
+      },
+      {
+        "product": "Quikrete 8.6 oz. High Strength Anchoring Epoxy",
+        "done": true,
+        "tags": [
+          "201253 hd 16 002"
+        ],
+        "amt": {
+          "qty": "",
+          "unit": ""
+        }
+      },
+      {
+        "product": "ANVIL Wire Twister",
+        "done": true,
+        "tags": [
+          "#1002277329 hd 16  001"
+        ]
+      },
+      {
+        "product": "(3) 2x4",
+        "done": true,
+        "amt": {
+          "qty": "",
+          "unit": "8"
+        },
+        "tags": [
+          "lowes aisle 18 bay 9"
+        ]
+      },
+      {
+        "product": "(4)Sakrete 5000 Plus 80-lb High Strength Concrete Mix",
+        "done": true,
+        "tags": [
+          "lowes aisle 19 bay 8"
+        ],
+        "amt": {
+          "qty": "",
+          "unit": ""
+        }
+      },
+      {
+        "product": "LYSOL 4-Pack Nylon Straw Brushes",
+        "done": true,
+        "tags": [
+          "# 751578  Lowes Aisle 4",
+          "Bay 13"
+        ]
+      },
+      {
+        "product": "67/100 ft. 16-Gauge Rebar Tie Wire (100-Piece/Bag)",
+        "done": true,
+        "tags": [
+          "hd 16 011"
+        ]
+      },
+      {
+        "product": "glue sticks",
+        "done": true
+      },
+      {
+        "product": "groved cutter",
+        "done": true,
+        "tags": [
+          "Aisle 10",
+          "Bay 018 150916"
+        ]
+      },
+      {
+        "product": "Nylon spacers",
+        "done": true
+      },
+      {
+        "product": "cedar 1x 3",
+        "done": true,
+        "tags": [
+          "Aisle 22",
+          "Bay 008 411729"
+        ]
+      },
+      {
+        "product": "5/16 in.-18 x 4 in. Stainless Hanger Bolt",
+        "done": true,
+        "tags": [
+          "Aisle 15",
+          "Bay 020"
+        ]
+      },
+      {
+        "product": "Flush 1/4",
+        "done": true
+      },
+      {
+        "product": "Burr tool countersink",
+        "done": true
+      },
+      {
+        "product": "corrugated plastic sheet",
+        "done": true,
+        "tags": [
+          "1000118572 Aisle 45",
+          "Bay 016"
+        ]
+      },
+      {
+        "product": "Smoke detectors",
+        "done": true,
+        "tags": [
+          "aisle8bay3hd"
+        ]
+      },
+      {
+        "product": "Keeney Brass 3/8-in Compression Quarter Turn Straight Valve",
+        "done": true,
+        "tags": [
+          "Aisle 15 bay 8"
+        ]
+      },
+      {
+        "product": "1/2\" self drilling screws",
+        "done": true,
+        "tags": [
+          "156417 Aisle 13",
+          "Bay 015"
+        ]
+      },
+      {
+        "product": "3/4\" self drilling screw",
+        "done": true
+      },
+      {
+        "product": "Dw 339284801",
+        "done": true
+      },
+      {
+        "product": "Fans",
+        "done": true
+      },
+      {
+        "product": "Bath fixture",
+        "done": true
+      },
+      {
+        "product": "3/8 copper",
+        "done": true
+      },
+      {
+        "product": "Bonding latex",
+        "done": true,
+        "tags": [
+          "aisle 16 bay 2 hd"
+        ]
+      },
+      {
+        "product": "Stair ladder",
+        "done": true
+      },
+      {
+        "product": "Oak flooring",
+        "done": true,
+        "tags": [
+          "Event Laydown 3",
+          "Bay 005"
+        ]
+      },
+      {
+        "product": "Base",
+        "done": true,
+        "tags": [
+          "Aisle 22",
+          "Bay 009"
+        ]
+      },
+      {
+        "product": "threshold",
+        "done": true,
+        "tags": [
+          "Aisle 46",
+          "Bay 010"
+        ]
+      },
+      {
+        "product": "2x6",
+        "done": true
+      },
+      {
+        "product": "unikal",
+        "done": true,
+        "tags": [
+          "Aisle 17",
+          "Bay 013"
+        ]
+      },
+      {
+        "product": "durabond 90",
+        "done": true,
+        "tags": [
+          "Aisle 17",
+          "Bay 011"
+        ]
+      },
+      {
+        "product": "drain cleaner",
+        "done": true
+      },
+      {
+        "product": "Recycle bins small",
+        "done": true
+      },
+      {
+        "product": "Flashlight bulb",
+        "done": true
+      },
+      {
+        "product": "Black mesh fabric",
+        "done": true,
+        "tags": [
+          "Outside Garden",
+          "Bay 018"
+        ]
+      },
+      {
+        "product": "Deck screws",
+        "done": true,
+        "tags": [
+          "Aisle 13",
+          "Bay 008"
+        ]
+      },
+      {
+        "product": "Bleach",
+        "done": true
+      },
+      {
+        "product": "Tile bleach cleaner",
+        "done": true
+      },
+      {
+        "product": "Rubber matts",
+        "done": true
+      },
+      {
+        "product": "Wellworth Trip Lever in Polished Chrome",
+        "done": true,
+        "tags": [
+          "411052 Aisle 38",
+          "Bay 001"
+        ]
+      },
+      {
+        "product": "sandpaper",
+        "done": true
+      },
+      {
+        "product": "Silicone caulk",
+        "done": true
+      },
+      {
+        "product": "Grout tools",
+        "done": true,
+        "tags": [
+          "Aisle 23",
+          "Bay 019"
+        ]
+      },
+      {
+        "product": "Silicone sealer",
+        "done": true
+      },
+      {
+        "product": "6x2 white",
+        "done": true
+      },
+      {
+        "product": "Sponge",
+        "done": true
+      },
+      {
+        "product": "Scrapers",
+        "done": true
+      },
+      {
+        "product": "Block plane",
+        "done": true
+      },
+      {
+        "product": "Backer rod",
+        "done": true
+      },
+      {
+        "product": "Green pad",
+        "done": true
+      },
+      {
+        "product": "1 1/2 tail w y",
+        "done": true
+      },
+      {
+        "product": "1/2 male adapter",
+        "done": true
+      },
+      {
+        "product": "26 balance 22 balance",
+        "done": true
+      },
+      {
+        "product": "3 way dimmers",
+        "done": true
+      },
+      {
+        "product": "3/4 close nipple",
+        "done": true
+      },
+      {
+        "product": "3/4 plastic ma",
+        "done": true
+      },
+      {
+        "product": "3/8 supply dw adapter",
+        "done": true
+      },
+      {
+        "product": "38tand shutoff",
+        "done": true
+      },
+      {
+        "product": "4-1/2 5 x1",
+        "done": true
+      },
+      {
+        "product": "aerator",
+        "done": true
+      },
+      {
+        "product": "Brass faucet cap",
+        "done": true
+      },
+      {
+        "product": "brass screw",
+        "done": true
+      },
+      {
+        "product": "Breaker",
+        "done": true
+      },
+      {
+        "product": "Cat 5",
+        "done": true
+      },
+      {
+        "product": "Countertop 120 in. Marbella in Breccia Nouvelle",
+        "done": true,
+        "tags": [
+          "Store SKU # 634678"
+        ]
+      },
+      {
+        "product": "Countertop 72 in. Marbella in Breccia Nouvelle",
+        "done": true,
+        "tags": [
+          "22&35 Hampton Bay Model # 494852M6 Internet # 203243111 Store SKU # 634355"
+        ],
+        "amt": {
+          "qty": "",
+          "unit": "in"
+        }
+      },
+      {
+        "product": "countertop endcaps",
+        "done": true,
+        "tags": [
+          "HD Breccia Nouvelle Model # 494852MECK Internet # 203243125 Store SKU # 631456"
+        ],
+        "amt": {
+          "qty": "",
+          "unit": ""
+        }
+      },
+      {
+        "product": "Degreaset",
+        "done": true
+      },
+      {
+        "product": "door knob",
+        "done": true
+      },
+      {
+        "product": "drain pvc for kitchen, lav and basement",
+        "done": true
+      },
+      {
+        "product": "drawer pull",
+        "done": true
+      },
+      {
+        "product": "Dw tail piece",
+        "done": true
+      },
+      {
+        "product": "electrical plates",
+        "done": true,
+        "tags": [
+          "1dd",
+          "1sd",
+          "3ds",
+          "19o"
+        ]
+      },
+      {
+        "product": "exterior led light",
+        "done": true
+      },
+      {
+        "product": "faucet restrict",
+        "done": true
+      },
+      {
+        "product": "finish screws",
+        "done": true
+      },
+      {
+        "product": "fix path light bases",
+        "done": true
+      },
+      {
+        "product": "glass 27x26",
+        "done": true
+      },
+      {
+        "product": "glass for light 3-3/16",
+        "done": true
+      },
+      {
+        "product": "grout sealer",
+        "done": true
+      },
+      {
+        "product": "handle puller",
+        "done": true
+      },
+      {
+        "product": "ice machine cap",
+        "done": true
+      },
+      {
+        "product": "ice maker",
+        "done": true
+      },
+      {
+        "product": "light fixture parts",
+        "done": true
+      },
+      {
+        "product": "Lock",
+        "done": true
+      },
+      {
+        "product": "oak flooring",
+        "done": true
+      },
+      {
+        "product": "roof stairs 25x53.5x8'4.5",
+        "done": true
+      },
+      {
+        "product": "scotch bonnet",
+        "done": true
+      },
+      {
+        "product": "screen door",
+        "done": true
+      },
+      {
+        "product": "shelf 34_5/8 33_3/4",
+        "done": true
+      },
+      {
+        "product": "shelf liner",
+        "done": true,
+        "tags": [
+          "Loews Duck Covers 10-ft x 24-in Black Shelf Liner Item #: 47550 |  Model #: 1297467"
+        ]
+      },
+      {
+        "product": "shower head",
+        "done": true
+      },
+      {
+        "product": "shower head",
+        "done": true
+      },
+      {
+        "product": "shower rods",
+        "done": true,
+        "amt": {
+          "qty": "",
+          "unit": ""
+        }
+      },
+      {
+        "product": "sibk xlips",
+        "done": true
+      },
+      {
+        "product": "sink supports",
+        "done": true
+      },
+      {
+        "product": "smoke/co detector",
+        "done": true,
+        "tags": [
+          "$48@homedeopot FireX Model # KN COSM IBA Internet # 205465828 Store SKU # 1000535870"
+        ]
+      },
+      {
+        "product": "Style Selections Euro Vanity White Belly Bowl Single Sink Bathroom Vanity with Vitreous China Top (Common: 24-in x 17-in",
+        "done": true,
+        "tags": [
+          "Lowes Item #: 297598 |  Model #: 41660"
+        ]
+      },
+      {
+        "product": "supplies kitchen bath toilet",
+        "done": true
+      },
+      {
+        "product": "symmons parts",
+        "done": true
+      },
+      {
+        "product": "Tail piece",
+        "done": true
+      },
+      {
+        "product": "tan grout",
+        "done": true
+      },
+      {
+        "product": "tile",
+        "done": true
+      },
+      {
+        "product": "toilet float",
+        "done": true,
+        "tags": [
+          "507484 Aisle 38",
+          "Bay 001"
+        ]
+      },
+      {
+        "product": "toilet KOHLER Wellworth White",
+        "done": true,
+        "tags": [
+          "16\"L5o $149 item #: 331676 |  Model #: 11464-0"
+        ]
+      },
+      {
+        "product": "toilet seat",
+        "done": true
+      },
+      {
+        "product": "Toilet valve",
+        "done": true
+      },
+      {
+        "product": "Trap",
+        "done": true
+      },
+      {
+        "product": "triangle scraper",
+        "done": true
+      },
+      {
+        "product": "vinyl coated steel cable",
+        "done": true
+      },
+      {
+        "product": "Wire connectors",
+        "done": true
+      },
+      {
+        "product": "Clamp lights and bulbs",
+        "done": true
+      },
+      {
+        "product": "Faucet outside",
+        "done": true
+      },
+      {
+        "product": "Washers for kitchen sink",
+        "done": true
+      },
+      {
+        "product": "Sink basket strainer>5/8",
+        "done": true
+      },
+      {
+        "product": "Solder",
+        "done": true
+      },
+      {
+        "product": "Flux",
+        "done": true
+      },
+      {
+        "product": "Ball valves",
+        "done": true
+      },
+      {
+        "product": "24\" 1/2x3/8 2",
+        "done": true
+      },
+      {
+        "product": "3/8fcx1/4 m",
+        "done": true
+      },
+      {
+        "product": "16 flex",
+        "done": true
+      },
+      {
+        "product": "2x6pt 10'",
+        "done": true
+      },
+      {
+        "product": "1x8 2/10",
+        "done": true
+      },
+      {
+        "product": "Primer",
+        "done": true
+      },
+      {
+        "product": "Blue paint",
+        "done": true
+      },
+      {
+        "product": "Tub drain2",
+        "done": true
+      },
+      {
+        "product": "Blank playe",
+        "done": true
+      },
+      {
+        "product": "Knob screwa",
+        "done": true
+      },
+      {
+        "product": "Caulking gun",
+        "done": true
+      },
+      {
+        "product": "Kitchen basket strainer 2 slooted",
+        "done": true
+      },
+      {
+        "product": "Kitchen sprayer",
+        "done": true
+      }
+    ],
+    "users": [
+      "tim"
+    ]
+  },
+  "Kiyidu": {
+    "_id": "5447abd0e47010336375bb1c",
+    "lid": "Kiyidu",
+    "shops": "2Chestnut",
+    "stores": [],
+    "timestamp": 1541820153765,
+    "items": [
+      {
+        "product": "circuit tester",
+        "done": false
+      },
+      {
+        "product": "Drill",
+        "done": true
+      },
+      {
+        "product": "check dw length",
+        "done": true
+      },
+      {
+        "product": "check dw electric",
+        "done": true
+      },
+      {
+        "product": "air hose",
+        "done": true
+      },
+      {
+        "product": "What type breaker",
+        "done": true
+      },
+      {
+        "product": "How much 14/2",
+        "done": true
+      },
+      {
+        "product": "Iron",
+        "done": true
+      },
+      {
+        "product": "Wax",
+        "done": true
+      },
+      {
+        "product": "1/2Fx1/2F flex gas connector 36\"",
+        "done": true
+      },
+      {
+        "product": "3/8x1/2 B I reducer couoling",
+        "done": true
+      },
+      {
+        "product": "1/2 close nipple BI",
+        "done": true
+      },
+      {
+        "product": "3\"aluminum tape",
+        "done": true
+      },
+      {
+        "product": "framing nailer",
+        "done": true
+      },
+      {
+        "product": "finish nailer",
+        "done": true
+      },
+      {
+        "product": "battery tools",
+        "done": true
+      },
+      {
+        "product": "yellow pine",
+        "done": true
+      },
+      {
+        "product": "tape measure",
+        "done": true
+      },
+      {
+        "product": "sanding supplies",
+        "done": true
+      },
+      {
+        "product": "bath paint",
+        "done": true
+      },
+      {
+        "product": "sharp tools",
+        "done": true
+      },
+      {
+        "product": "roof stuff",
+        "done": true
+      },
+      {
+        "product": "rags",
+        "done": true
+      },
+      {
+        "product": "pine",
+        "done": true
+      },
+      {
+        "product": "hand truck",
+        "done": true
+      },
+      {
+        "product": "formica",
+        "done": true
+      },
+      {
+        "product": "dremel",
+        "done": true
+      },
+      {
+        "product": "clamp",
+        "done": true
+      },
+      {
+        "product": "apt 5 key",
+        "done": true
+      },
+      {
+        "product": "1/2 I T",
+        "done": true
+      },
+      {
+        "product": "1/2 plug",
+        "done": true
+      }
+    ],
+    "users": [
+      "tim"
+    ]
+  },
+  "Gabuge": {
+    "_id": "54594fb05b0dc36c73b7bb85",
+    "lid": "Gabuge",
+    "shops": "dbs",
+    "stores": [],
+    "timestamp": 1460219855564,
+    "items": [
+      {
+        "product": "Z flashing",
+        "done": false
+      },
+      {
+        "product": "1x8 16",
+        "done": false
+      },
+      {
+        "product": "1x6 10",
+        "done": false
+      },
+      {
+        "product": "1x4 10",
+        "done": false
+      },
+      {
+        "product": "5/4x4 6",
+        "done": false
+      },
+      {
+        "product": "Clapboard 6",
+        "done": false
+      },
+      {
+        "product": "8d box galv",
+        "done": false
+      },
+      {
+        "product": "flat bar",
+        "done": false
+      },
+      {
+        "product": "glue",
+        "done": false
+      },
+      {
+        "product": "skill saw",
+        "done": false
+      },
+      {
+        "product": "extension rollers",
+        "done": false
+      },
+      {
+        "product": "1/2sheetrock",
+        "done": true
+      },
+      {
+        "product": "1x8",
+        "done": true,
+        "amt": {
+          "qty": "",
+          "unit": "12"
+        }
+      },
+      {
+        "product": "corner bead",
+        "done": true
+      },
+      {
+        "product": "mesh tape",
+        "done": true
+      },
+      {
+        "product": "nail set",
+        "done": true
+      },
+      {
+        "product": "spindle",
+        "done": true
+      },
+      {
+        "product": "door frame",
+        "done": true
+      },
+      {
+        "product": "door knob",
+        "done": true
+      },
+      {
+        "product": "1/4 acx",
+        "done": true
+      },
+      {
+        "product": "1x4 1/12,8",
+        "done": true
+      },
+      {
+        "product": "2x4",
+        "done": true,
+        "amt": {
+          "qty": "",
+          "unit": "8"
+        }
+      },
+      {
+        "product": "3/4 acx",
+        "done": true
+      },
+      {
+        "product": "door trim",
+        "done": true
+      },
+      {
+        "product": "plaster 45 minute",
+        "done": true
+      },
+      {
+        "product": "hinges",
+        "done": true
+      },
+      {
+        "product": "1/4 \"bit",
+        "done": true
+      }
+    ],
+    "users": [
+      "tim"
+    ]
+  },
+  "Bozoxi": {
+    "_id": "5550fc805e6fe7e52eae5517",
+    "lid": "Bozoxi",
+    "shops": "todo",
+    "stores": [],
+    "timestamp": 1522794235436,
+    "items": [
+      {
+        "product": "Ed angle under the wall",
+        "done": true
+      },
+      {
+        "product": "Drill holes in base",
+        "done": true
+      },
+      {
+        "product": "Mill lower horizontal",
+        "done": true
+      },
+      {
+        "product": "Mill and attached upper horizontal",
+        "done": true
+      },
+      {
+        "product": "Mill and attached clapboard vertical",
+        "done": true
+      },
+      {
+        "product": "Glue on foam",
+        "done": false
+      },
+      {
+        "product": "Make permanent leg",
+        "done": true
+      },
+      {
+        "product": "Make temporary leg",
+        "done": true
+      },
+      {
+        "product": "Drill for light hangers",
+        "done": false
+      },
+      {
+        "product": "Drill through whole right side base",
+        "done": true
+      },
+      {
+        "product": "modify light",
+        "done": true
+      },
+      {
+        "product": "hoisin sauce",
+        "done": true
+      },
+      {
+        "product": "baking soda",
+        "done": true
+      },
+      {
+        "product": "Corn starch",
+        "done": true
+      },
+      {
+        "product": "chicken breast",
+        "done": true
+      },
+      {
+        "product": "dw detergent",
+        "done": true
+      },
+      {
+        "product": "cheese",
+        "done": true
+      },
+      {
+        "product": "bread",
+        "done": true
+      },
+      {
+        "product": "knife sharpener",
+        "done": true
+      },
+      {
+        "product": "squash",
+        "done": true
+      },
+      {
+        "product": "cream cheese",
+        "done": true
+      },
+      {
+        "product": "salad dressing",
+        "done": true
+      },
+      {
+        "product": "fix porch upper lower",
+        "done": true
+      },
+      {
+        "product": "investigate windows",
+        "done": true
+      },
+      {
+        "product": "fix rear porch",
+        "done": true
+      },
+      {
+        "product": "remove greenhouse",
+        "done": true
+      },
+      {
+        "product": "fix upper porch",
+        "done": true
+      },
+      {
+        "product": "duplicate pi",
+        "done": true
+      },
+      {
+        "product": "go scothb lowesdepot",
+        "done": true
+      },
+      {
+        "product": "build structures",
+        "done": true
+      },
+      {
+        "product": "fix lights",
+        "done": true
+      },
+      {
+        "product": "setup porch wiring",
+        "done": true
+      },
+      {
+        "product": "repoint chimney",
+        "done": true
+      },
+      {
+        "product": "clean gutters",
+        "done": true
+      },
+      {
+        "product": "add mesh to gutters",
+        "done": true
+      }
+    ],
+    "users": [
+      "tim"
+    ]
+  },
+  "Qoqida": {
+    "_id": "5835d75e62ed05ee0f91c8fc",
+    "lid": "Qoqida",
+    "shops": "down centre",
+    "stores": [],
+    "timestamp": 1523377089730,
+    "items": [
+      {
+        "product": "9v batteries",
+        "done": false
+      },
+      {
+        "product": "Round screws",
+        "done": true
+      },
+      {
+        "product": "Chair bottoms",
+        "done": true
+      },
+      {
+        "product": "Po hat",
+        "done": true
+      },
+      {
+        "product": "corkscrew",
+        "done": true
+      },
+      {
+        "product": "Durabond90",
+        "done": true
+      },
+      {
+        "product": "Plaster buttons",
+        "done": true
+      },
+      {
+        "product": "Plastic bags",
+        "done": true
+      },
+      {
+        "product": "Kilz",
+        "done": true
+      },
+      {
+        "product": "Wire",
+        "done": true
+      },
+      {
+        "product": "Connectors",
+        "done": true
+      },
+      {
+        "product": "Yellow wire nuts",
+        "done": true
+      },
+      {
+        "product": "Flex gas 3/4 x 1/2",
+        "done": true
+      },
+      {
+        "product": "Cherry stain",
+        "done": true
+      },
+      {
+        "product": "Oak filler",
+        "done": true
+      },
+      {
+        "product": "Grout",
+        "done": true
+      },
+      {
+        "product": "Tile",
+        "done": true
+      },
+      {
+        "product": "Adhesove",
+        "done": true
+      },
+      {
+        "product": "Gray owl paint",
+        "done": true
+      },
+      {
+        "product": "3.5 hinges",
+        "done": true
+      },
+      {
+        "product": "Closet pole",
+        "done": true
+      },
+      {
+        "product": "Stain",
+        "done": true
+      },
+      {
+        "product": "Shellac",
+        "done": true
+      },
+      {
+        "product": "1 gal bucket",
+        "done": true
+      },
+      {
+        "product": "Double coax plate",
+        "done": true
+      },
+      {
+        "product": "Rubber cement",
+        "done": true
+      },
+      {
+        "product": "2in aluminum",
+        "done": true
+      },
+      {
+        "product": "One and a half inch bolts",
+        "done": true
+      },
+      {
+        "product": "4 in hanger bolts",
+        "done": true
+      },
+      {
+        "product": "Three-quarter inch angle",
+        "done": true,
+        "amt": {
+          "qty": "",
+          "unit": "Ft"
+        },
+        "loc": "cereal"
+      },
+      {
+        "product": "A file",
+        "done": true
+      },
+      {
+        "product": "Zucchini seeds",
+        "done": true
+      },
+      {
+        "product": "Plug",
+        "done": false
+      },
+      {
+        "product": "Double pulley",
+        "done": false
+      },
+      {
+        "product": "Blue cover",
+        "done": true
+      },
+      {
+        "product": "Bolt",
+        "done": false
+      }
+    ],
+    "users": [
+      "tim"
+    ]
+  },
+  "Jutebi": {
+    "_id": "5430c9e21f6cbc3a4e7aa8ee",
+    "lid": "Jutebi",
+    "shops": "groceries",
+    "timestamp": 1573088699436,
+    "items": [
+      {
+        "product": "Cream cheese, whipped nonorganic what milk",
+        "done": true
+      },
+      {
+        "product": "DF cream cheese",
+        "done": true
+      },
+      {
+        "product": "Stock",
+        "done": true
+      },
+      {
+        "product": "peper flakes",
+        "done": true
+      },
+      {
+        "product": "anchovies",
+        "done": true
+      },
+      {
+        "product": "chives",
+        "done": true
+      },
+      {
+        "product": "sweet potatoes",
+        "done": true
+      },
+      {
+        "product": "oat crackers",
+        "done": true
+      },
+      {
+        "product": "Fresh ginger",
+        "done": true,
+        "loc": "produce",
+        "amt": {
+          "qty": "",
+          "unit": "pc"
+        }
+      },
+      {
+        "product": "Rice noodles",
+        "done": true
+      },
+      {
+        "product": "cottage cheese 4%",
+        "done": true,
+        "loc": "dairy"
+      },
+      {
+        "product": "apples",
+        "done": true
+      },
+      {
+        "product": "white flour",
+        "done": true,
+        "loc": "bake-cook",
+        "amt": {
+          "qty": "",
+          "unit": "lb"
+        },
+        "tags": [
+          "King Arthur"
+        ]
+      },
+      {
+        "product": "Eggs",
+        "done": true
+      },
+      {
+        "product": "Oregano",
+        "done": true
+      },
+      {
+        "product": "Parsley",
+        "done": true
+      },
+      {
+        "product": "Red pepper",
+        "done": true
+      },
+      {
+        "product": "Oregano big",
+        "done": true
+      },
+      {
+        "product": "Ginger. Pickled",
+        "done": true,
+        "amt": {
+          "qty": "",
+          "unit": ""
+        }
+      },
+      {
+        "product": "Mung bean sprouts",
+        "done": true
+      },
+      {
+        "product": "Wasabi",
+        "done": true
+      },
+      {
+        "product": "Trail mix",
+        "done": true
+      },
+      {
+        "product": "Bread",
+        "done": true
+      },
+      {
+        "product": "Rice",
+        "done": true
+      },
+      {
+        "product": "Oj",
+        "done": true
+      },
+      {
+        "product": "butter",
+        "done": true,
+        "loc": "dairy",
+        "amt": {
+          "qty": "",
+          "unit": "lb"
+        }
+      },
+      {
+        "product": "Toilet paper",
+        "done": true,
+        "loc": "paper/plastic"
+      },
+      {
+        "product": "Brocolli",
+        "done": true
+      },
+      {
+        "product": "Cheerios",
+        "done": true
+      },
+      {
+        "product": "DFYogurt",
+        "done": true
+      },
+      {
+        "product": "Organic carrots",
+        "done": true
+      },
+      {
+        "product": "Peanut buttet",
+        "done": true
+      },
+      {
+        "product": "Sponges",
+        "done": true
+      },
+      {
+        "product": "DF kefir",
+        "done": true
+      },
+      {
+        "product": "Orange marmalade",
+        "done": true
+      },
+      {
+        "product": "Humus",
+        "done": true
+      },
+      {
+        "product": "Bananas",
+        "done": true
+      },
+      {
+        "product": "Pretzels",
+        "done": true
+      },
+      {
+        "product": "FAGE yogurt",
+        "done": true
+      },
+      {
+        "product": "Thin Stackers quinoa",
+        "done": true
+      },
+      {
+        "product": "Soy sauce",
+        "done": true
+      },
+      {
+        "product": "Lemons",
+        "done": true,
+        "loc": "produce"
+      },
+      {
+        "product": "onions",
+        "done": true
+      },
+      {
+        "product": "baking soda",
+        "done": true,
+        "loc": "bake-cook"
+      },
+      {
+        "product": "capers",
+        "done": true
+      },
+      {
+        "product": "ground beef",
+        "done": true
+      },
+      {
+        "product": "Ivory dish soap",
+        "done": true,
+        "loc": "cleaning"
+      },
+      {
+        "product": "Limes",
+        "done": true,
+        "amt": {
+          "qty": "",
+          "unit": ""
+        }
+      },
+      {
+        "product": "Paper towels",
+        "done": true
+      },
+      {
+        "product": "sour cream (not lofat) big",
+        "done": true
+      },
+      {
+        "product": "oranges",
+        "done": true
+      },
+      {
+        "product": "pears",
+        "done": true
+      },
+      {
+        "product": "Cream of wheat",
+        "done": true
+      },
+      {
+        "product": "Cream cheese",
+        "done": true,
+        "loc": "dairy",
+        "tags": [
+          "whipped"
+        ],
+        "amt": {
+          "qty": "",
+          "unit": ""
+        }
+      },
+      {
+        "product": "Coffee",
+        "done": true,
+        "tags": [
+          "(big bags)"
+        ]
+      },
+      {
+        "product": "Olive oil",
+        "done": true
+      },
+      {
+        "product": "Red wine vinegar",
+        "done": true
+      },
+      {
+        "product": "Crackers",
+        "done": true
+      },
+      {
+        "product": "shallots",
+        "done": true
+      },
+      {
+        "product": "Kitty litter",
+        "done": true
+      },
+      {
+        "product": "Peanuts",
+        "done": true
+      },
+      {
+        "product": "oj",
+        "done": true
+      },
+      {
+        "product": "Potatoes",
+        "done": true
+      },
+      {
+        "product": "Almond milk, unsweetened",
+        "done": true
+      },
+      {
+        "product": "Mussels and french bread or supper??",
+        "done": true
+      },
+      {
+        "product": "Flowers",
+        "done": true
+      },
+      {
+        "product": "Almonds",
+        "done": true
+      },
+      {
+        "product": "Goat cheese",
+        "done": true
+      },
+      {
+        "product": "Jarlsburg Swiss cheese",
+        "done": true
+      },
+      {
+        "product": "Carrots",
+        "done": true
+      },
+      {
+        "product": "Cherry tomatoes",
+        "done": true
+      },
+      {
+        "product": "Pecans",
+        "done": true
+      },
+      {
+        "product": "Kale",
+        "done": true,
+        "loc": "produce"
+      },
+      {
+        "product": "Milk another qt",
+        "done": true
+      },
+      {
+        "product": "Tomato heirloom",
+        "done": true,
+        "loc": "produce",
+        "tags": [
+          "for me bagels"
+        ]
+      },
+      {
+        "product": "WM Brown cow yogurt",
+        "done": true
+      },
+      {
+        "product": "Avacado",
+        "done": true,
+        "loc": "produce"
+      },
+      {
+        "product": "blueberries",
+        "done": true,
+        "tags": [
+          "hay on sale 18oz $4.99"
+        ]
+      },
+      {
+        "product": "salsa",
+        "done": true,
+        "tags": [
+          "green mountain gringo 2/$6"
+        ]
+      },
+      {
+        "product": "vitamin c powder packages",
+        "done": true
+      },
+      {
+        "product": "celery",
+        "done": true
+      },
+      {
+        "product": "Soap",
+        "done": true
+      },
+      {
+        "product": "Wax paper",
+        "done": true
+      },
+      {
+        "product": "Bon Ami cleanser",
+        "done": true
+      },
+      {
+        "product": "Pepper corns",
+        "done": true
+      },
+      {
+        "product": "Bagette",
+        "done": true
+      },
+      {
+        "product": "Raisins",
+        "done": true
+      },
+      {
+        "product": "3 evaporated milk",
+        "done": true
+      },
+      {
+        "product": "4 onion",
+        "done": true
+      },
+      {
+        "product": "Adobo",
+        "done": true
+      },
+      {
+        "product": "Almond butter",
+        "done": true
+      },
+      {
+        "product": "Almond butter",
+        "done": true
+      },
+      {
+        "product": "Almond paste",
+        "done": true
+      },
+      {
+        "product": "almonds raw",
+        "done": true
+      },
+      {
+        "product": "Apple cider",
+        "done": true
+      },
+      {
+        "product": "Apple cider vinegar",
+        "done": true,
+        "loc": "bake-cook",
+        "tags": [
+          "mad from dogs"
+        ]
+      },
+      {
+        "product": "apple sauce",
+        "done": true
+      },
+      {
+        "product": "Apples",
+        "done": true
+      },
+      {
+        "product": "Applesauce",
+        "done": true
+      },
+      {
+        "product": "Arrowroot",
+        "done": true
+      },
+      {
+        "product": "Baby detergent",
+        "done": true
+      },
+      {
+        "product": "Bacon",
+        "done": true,
+        "loc": "meats"
+      },
+      {
+        "product": "Bags",
+        "done": true
+      },
+      {
+        "product": "baguette",
+        "done": true,
+        "loc": "bread"
+      },
+      {
+        "product": "baked beans",
+        "done": true,
+        "loc": "canned"
+      },
+      {
+        "product": "Balsamic vinegar",
+        "done": true
+      },
+      {
+        "product": "bananas",
+        "done": true
+      },
+      {
+        "product": "barbecue sauce",
+        "done": true,
+        "loc": "flavoring"
+      },
+      {
+        "product": "Basil",
+        "done": true
+      },
+      {
+        "product": "Beautiful curls conditioner",
+        "done": true
+      },
+      {
+        "product": "beer",
+        "done": true
+      },
+      {
+        "product": "Berrys",
+        "done": true
+      },
+      {
+        "product": "black beans",
+        "done": true,
+        "loc": "canned"
+      },
+      {
+        "product": "Black Tea",
+        "done": true
+      },
+      {
+        "product": "Bleach",
+        "done": true
+      },
+      {
+        "product": "Blueberries",
+        "done": true
+      },
+      {
+        "product": "Boillon",
+        "done": true
+      },
+      {
+        "product": "Bok choi",
+        "done": true
+      },
+      {
+        "product": "Bonito",
+        "done": true
+      },
+      {
+        "product": "Brewers Yeast",
+        "done": true
+      },
+      {
+        "product": "Brisket",
+        "done": true
+      },
+      {
+        "product": "Brown cowPLAIN  Yogurt whole milk cream on top",
+        "done": true
+      },
+      {
+        "product": "Brown rice",
+        "done": true
+      },
+      {
+        "product": "Brown rice flour",
+        "done": true
+      },
+      {
+        "product": "Brown sugar",
+        "done": true
+      },
+      {
+        "product": "brussels sprouts",
+        "done": true,
+        "loc": "produce"
+      },
+      {
+        "product": "Buckwheat  noodles",
+        "done": true
+      },
+      {
+        "product": "Buckwheat flour",
+        "done": true
+      },
+      {
+        "product": "Buckwheat groats",
+        "done": true
+      },
+      {
+        "product": "Butter",
+        "done": true
+      },
+      {
+        "product": "butternut squash",
+        "done": true,
+        "loc": "produce"
+      },
+      {
+        "product": "Candied ginger",
+        "done": true
+      },
+      {
+        "product": "Canned tomatoes",
+        "done": true
+      },
+      {
+        "product": "canned whole tomatoes",
+        "done": true,
+        "loc": "canned"
+      },
+      {
+        "product": "Canola oil",
+        "done": true,
+        "loc": "bake-cook"
+      },
+      {
+        "product": "Cashews",
+        "done": true
+      },
+      {
+        "product": "Cayenne powder",
+        "done": true
+      },
+      {
+        "product": "Celery",
+        "done": true,
+        "loc": "produce"
+      },
+      {
+        "product": "Cheddar",
+        "done": true
+      },
+      {
+        "product": "Cheese sticks",
+        "done": true
+      },
+      {
+        "product": "Chia seeds, 1/2 cup",
+        "done": true
+      },
+      {
+        "product": "Chicken",
+        "done": true,
+        "loc": "meats"
+      },
+      {
+        "product": "Chicken broth",
+        "done": true
+      },
+      {
+        "product": "Chicken thighs",
+        "done": true
+      },
+      {
+        "product": "Chiles DE arbol",
+        "done": true
+      },
+      {
+        "product": "Chipotle caned chiles",
+        "done": true
+      },
+      {
+        "product": "Chives",
+        "done": true
+      },
+      {
+        "product": "Chocalte",
+        "done": true
+      },
+      {
+        "product": "chocolate, dark 070% bits",
+        "done": true
+      },
+      {
+        "product": "Choriso",
+        "done": true
+      },
+      {
+        "product": "cider",
+        "done": true,
+        "loc": "produce"
+      },
+      {
+        "product": "cilantro",
+        "done": true,
+        "loc": "produce"
+      },
+      {
+        "product": "clementines",
+        "done": true,
+        "loc": "produce"
+      },
+      {
+        "product": "Coconut",
+        "done": true
+      },
+      {
+        "product": "Coconut milk",
+        "done": true
+      },
+      {
+        "product": "Cold cuts",
+        "done": true
+      },
+      {
+        "product": "condensed milk",
+        "done": true,
+        "loc": "canned"
+      },
+      {
+        "product": "Confectioner's sugar",
+        "done": true
+      },
+      {
+        "product": "Corn meal",
+        "done": true
+      },
+      {
+        "product": "Cornstarch",
+        "done": true
+      },
+      {
+        "product": "Corona",
+        "done": true
+      },
+      {
+        "product": "Cranberries",
+        "done": true
+      },
+      {
+        "product": "cream",
+        "done": true,
+        "loc": "dairy"
+      },
+      {
+        "product": "cream cheese",
+        "done": true
+      },
+      {
+        "product": "Cucumber",
+        "done": true
+      },
+      {
+        "product": "daikon",
+        "done": true
+      },
+      {
+        "product": "DF butter",
+        "done": true
+      },
+      {
+        "product": "DF sour cream",
+        "done": true
+      },
+      {
+        "product": "Dill",
+        "done": true
+      },
+      {
+        "product": "Dishwasher detergent",
+        "done": true
+      },
+      {
+        "product": "Dog rawhide",
+        "done": true
+      },
+      {
+        "product": "Dried fruit",
+        "done": true
+      },
+      {
+        "product": "Earth balance, soy free",
+        "done": true
+      },
+      {
+        "product": "Earth Science Clarifying Wash",
+        "done": true
+      },
+      {
+        "product": "Earth science toner",
+        "done": true
+      },
+      {
+        "product": "Eccinachea and golden seal",
+        "done": true
+      },
+      {
+        "product": "Elbow macaroni",
+        "done": true
+      },
+      {
+        "product": "english muffins",
+        "done": true,
+        "amt": {
+          "qty": "",
+          "unit": ""
+        }
+      },
+      {
+        "product": "Farmers chees",
+        "done": true
+      },
+      {
+        "product": "Feta",
+        "done": true
+      },
+      {
+        "product": "Fish sauce",
+        "done": true
+      },
+      {
+        "product": "Fish, 4lb",
+        "done": true
+      },
+      {
+        "product": "frogs",
+        "done": true
+      },
+      {
+        "product": "frozen fruit",
+        "done": true
+      },
+      {
+        "product": "Frozen peas",
+        "done": true
+      },
+      {
+        "product": "fruit",
+        "done": true
+      },
+      {
+        "product": "Fruit jam, unsweetened",
+        "done": true
+      },
+      {
+        "product": "Fun food",
+        "done": true,
+        "tags": [
+          "Whatever strikes ur fancy"
+        ]
+      },
+      {
+        "product": "Galangal",
+        "done": true
+      },
+      {
+        "product": "Gallon of vinegar",
+        "done": true
+      },
+      {
+        "product": "Garbanzo bean flour",
+        "done": true
+      },
+      {
+        "product": "Gelatin",
+        "done": true
+      },
+      {
+        "product": "Genmaicha (Brown Rice Green Tea)",
+        "done": true
+      },
+      {
+        "product": "GF bagels",
+        "done": true
+      },
+      {
+        "product": "GF bread Canyon Ranch white or rye",
+        "done": true
+      },
+      {
+        "product": "GF granola",
+        "done": true
+      },
+      {
+        "product": "GF pasta",
+        "done": true
+      },
+      {
+        "product": "GF Pretzels",
+        "done": true
+      },
+      {
+        "product": "ginger",
+        "done": true,
+        "loc": "produce"
+      },
+      {
+        "product": "Ginger ale",
+        "done": true
+      },
+      {
+        "product": "gochujang",
+        "done": true
+      },
+      {
+        "product": "Gochujang",
+        "done": true
+      },
+      {
+        "product": "Granola",
+        "done": true
+      },
+      {
+        "product": "Grapefruit",
+        "done": true,
+        "loc": "produce"
+      },
+      {
+        "product": "Grapes",
+        "done": true
+      },
+      {
+        "product": "Ground cardMon",
+        "done": true
+      },
+      {
+        "product": "ham",
+        "done": true
+      },
+      {
+        "product": "ham (thick)",
+        "done": true,
+        "loc": "deli",
+        "tags": [
+          "thick(for eggs bennadict)"
+        ],
+        "amt": {
+          "qty": "",
+          "unit": "lb"
+        }
+      },
+      {
+        "product": "Heavy cream",
+        "done": true,
+        "loc": "dairy",
+        "amt": {
+          "qty": "",
+          "unit": "Pints"
+        }
+      },
+      {
+        "product": "Hellmans",
+        "done": true
+      },
+      {
+        "product": "Honey",
+        "done": true
+      },
+      {
+        "product": "Huggins Lil Movers sz3",
+        "done": true
+      },
+      {
+        "product": "Ice",
+        "done": true
+      },
+      {
+        "product": "Ice cream",
+        "done": true
+      },
+      {
+        "product": "italian bread",
+        "done": true
+      },
+      {
+        "product": "italian/french bread",
+        "done": true
+      },
+      {
+        "product": "Kalamata pitted olives",
+        "done": true,
+        "tags": [],
+        "loc": "deli",
+        "amt": {
+          "qty": "",
+          "unit": "pints"
+        }
+      },
+      {
+        "product": "Kasha",
+        "done": true
+      },
+      {
+        "product": "Kelp",
+        "done": true
+      },
+      {
+        "product": "Ketchup",
+        "done": true
+      },
+      {
+        "product": "Kim chee",
+        "done": true
+      },
+      {
+        "product": "Kitchen bouquet",
+        "done": true
+      },
+      {
+        "product": "Kitchen garbage bags",
+        "done": true
+      },
+      {
+        "product": "Lamb chops",
+        "done": true
+      },
+      {
+        "product": "Lamb shank",
+        "done": true
+      },
+      {
+        "product": "Laundry derergent",
+        "done": true
+      },
+      {
+        "product": "Lentils",
+        "done": true
+      },
+      {
+        "product": "Lettuce",
+        "done": true
+      },
+      {
+        "product": "LF yogurt",
+        "done": true
+      },
+      {
+        "product": "Lime zest",
+        "done": true
+      },
+      {
+        "product": "mango",
+        "done": true,
+        "loc": "produce"
+      },
+      {
+        "product": "Marjoram",
+        "done": true
+      },
+      {
+        "product": "Mayonaise",
+        "done": true
+      },
+      {
+        "product": "Melatonin",
+        "done": true
+      },
+      {
+        "product": "Milk",
+        "done": true
+      },
+      {
+        "product": "Millet flour",
+        "done": true
+      },
+      {
+        "product": "mint",
+        "done": true,
+        "loc": "produce"
+      },
+      {
+        "product": "Mint sauce",
+        "done": true
+      },
+      {
+        "product": "Miso",
+        "done": true
+      },
+      {
+        "product": "molasses",
+        "done": true,
+        "loc": "bake-cook"
+      },
+      {
+        "product": "Mozzerella",
+        "done": true
+      },
+      {
+        "product": "Multigrain bread",
+        "done": true
+      },
+      {
+        "product": "mussels",
+        "done": true
+      },
+      {
+        "product": "mustard",
+        "done": true,
+        "loc": "flavoring"
+      },
+      {
+        "product": "Mustard,powdered",
+        "done": true
+      },
+      {
+        "product": "Nattokinase",
+        "done": true
+      },
+      {
+        "product": "Nature's balance, soy free",
+        "done": true
+      },
+      {
+        "product": "nori",
+        "done": true
+      },
+      {
+        "product": "Nori",
+        "done": true
+      },
+      {
+        "product": "Olives",
+        "done": true
+      },
+      {
+        "product": "olives and pimentos pitted",
+        "done": true,
+        "tags": [
+          "goya"
+        ],
+        "loc": "canned"
+      },
+      {
+        "product": "Onion",
+        "done": true,
+        "loc": "produce"
+      },
+      {
+        "product": "Orange zest",
+        "done": true
+      },
+      {
+        "product": "Oranges, organic",
+        "done": true
+      },
+      {
+        "product": "Oyster sauce",
+        "done": true
+      },
+      {
+        "product": "palmolive eco dishawasher detergnet",
+        "done": true,
+        "tags": [
+          "not that green shit"
+        ]
+      },
+      {
+        "product": "Paper plates",
+        "done": true
+      },
+      {
+        "product": "Parmesan",
+        "done": true
+      },
+      {
+        "product": "Parsnip",
+        "done": true
+      },
+      {
+        "product": "Peanut oil",
+        "done": true,
+        "loc": "bake-cook"
+      },
+      {
+        "product": "Peas",
+        "done": true
+      },
+      {
+        "product": "Peppercorns",
+        "done": true
+      },
+      {
+        "product": "Pine nuts",
+        "done": true
+      },
+      {
+        "product": "pitted olives/pimentos",
+        "done": true,
+        "loc": "canned"
+      },
+      {
+        "product": "pizza",
+        "done": true
+      },
+      {
+        "product": "Plastic. Containers",
+        "done": true
+      },
+      {
+        "product": "polenta",
+        "done": true
+      },
+      {
+        "product": "Potato starch",
+        "done": true
+      },
+      {
+        "product": "Proscuto",
+        "done": true
+      },
+      {
+        "product": "pumpkin",
+        "done": true,
+        "loc": "produce"
+      },
+      {
+        "product": "Pumpkin seeds",
+        "done": true
+      },
+      {
+        "product": "Purple olives",
+        "done": true,
+        "loc": "canned"
+      },
+      {
+        "product": "Quinoa",
+        "done": true
+      },
+      {
+        "product": "Red onion",
+        "done": true
+      },
+      {
+        "product": "red onions",
+        "done": true,
+        "loc": "produce",
+        "amt": {
+          "qty": "",
+          "unit": ""
+        }
+      },
+      {
+        "product": "Red potatoes",
+        "done": true
+      },
+      {
+        "product": "Ribs",
+        "done": true
+      },
+      {
+        "product": "Rice cakes",
+        "done": true
+      },
+      {
+        "product": "Rice vermicelli",
+        "done": true
+      },
+      {
+        "product": "Rice vinegar",
+        "done": true
+      },
+      {
+        "product": "Ritz crackers",
+        "done": true
+      },
+      {
+        "product": "Rosemary",
+        "done": true
+      },
+      {
+        "product": "Saffron threads",
+        "done": true
+      },
+      {
+        "product": "Salmon",
+        "done": true
+      },
+      {
+        "product": "Salsa",
+        "done": true
+      },
+      {
+        "product": "Salt",
+        "done": true
+      },
+      {
+        "product": "salt big chrystals for salt grinder",
+        "done": true
+      },
+      {
+        "product": "salt kosher coarse",
+        "done": true
+      },
+      {
+        "product": "Scallions",
+        "done": true
+      },
+      {
+        "product": "Sea salt crystals",
+        "done": true
+      },
+      {
+        "product": "Seaweed snacks",
+        "done": true
+      },
+      {
+        "product": "Seltzer",
+        "done": true
+      },
+      {
+        "product": "Sesame oil",
+        "done": true
+      },
+      {
+        "product": "sesame seeds",
+        "done": true
+      },
+      {
+        "product": "Shallots",
+        "done": true
+      },
+      {
+        "product": "sherry, dry",
+        "done": true
+      },
+      {
+        "product": "Shitake",
+        "done": true
+      },
+      {
+        "product": "Shredded coconut, unsweetened",
+        "done": true
+      },
+      {
+        "product": "Shrimp",
+        "done": true
+      },
+      {
+        "product": "small onions",
+        "done": true,
+        "loc": "produce"
+      },
+      {
+        "product": "Smoked almonds",
+        "done": true
+      },
+      {
+        "product": "smoked almonds",
+        "done": true
+      },
+      {
+        "product": "smoked bluefish",
+        "done": true,
+        "loc": "seafood"
+      },
+      {
+        "product": "smoked turkey butt",
+        "done": true
+      },
+      {
+        "product": "Smoked turkey butt, neck..",
+        "done": true
+      },
+      {
+        "product": "Soft scrub",
+        "done": true
+      },
+      {
+        "product": "Sound sleep",
+        "done": true
+      },
+      {
+        "product": "Sour cream LF",
+        "done": true
+      },
+      {
+        "product": "Sourdough bread",
+        "done": true
+      },
+      {
+        "product": "Spanish BBQ base for jerk sauce",
+        "done": true
+      },
+      {
+        "product": "sparkling lemonade",
+        "done": true
+      },
+      {
+        "product": "Spelt pretzels",
+        "done": true
+      },
+      {
+        "product": "Spinach",
+        "done": true
+      },
+      {
+        "product": "Split peas",
+        "done": true
+      },
+      {
+        "product": "spring mix lettuce",
+        "done": true,
+        "loc": "produce"
+      },
+      {
+        "product": "Sprouts",
+        "done": true
+      },
+      {
+        "product": "Sriracha",
+        "done": true
+      },
+      {
+        "product": "steak tips",
+        "done": true,
+        "tags": [
+          "on sale",
+          "could be quick dinner"
+        ],
+        "loc": "meats"
+      },
+      {
+        "product": "Steamers",
+        "done": true
+      },
+      {
+        "product": "Steel cut oats",
+        "done": true
+      },
+      {
+        "product": "Strawberries",
+        "done": true,
+        "loc": "produce"
+      },
+      {
+        "product": "sugar",
+        "done": true,
+        "loc": "bake-cook"
+      },
+      {
+        "product": "Sushi rice",
+        "done": true
+      },
+      {
+        "product": "Sweet rice flour",
+        "done": true,
+        "loc": "natural-bulk"
+      },
+      {
+        "product": "Tapioca",
+        "done": true
+      },
+      {
+        "product": "Tapioca flour",
+        "done": true
+      },
+      {
+        "product": "Throat coat",
+        "done": true
+      },
+      {
+        "product": "Thyme",
+        "done": true
+      },
+      {
+        "product": "thyme, fresh",
+        "done": true
+      },
+      {
+        "product": "Tofu",
+        "done": true
+      },
+      {
+        "product": "Toilet bowl cleaner",
+        "done": true
+      },
+      {
+        "product": "tomato paste",
+        "done": true,
+        "loc": "canned"
+      },
+      {
+        "product": "Tomato soup",
+        "done": true
+      },
+      {
+        "product": "Tonic  water",
+        "done": true
+      },
+      {
+        "product": "Trefoil",
+        "done": true
+      },
+      {
+        "product": "Turkey",
+        "done": true
+      },
+      {
+        "product": "Turkey bags",
+        "done": true
+      },
+      {
+        "product": "Turkey to smoke?",
+        "done": true
+      },
+      {
+        "product": "Turmeric",
+        "done": true
+      },
+      {
+        "product": "Umboshi Plum paste",
+        "done": true
+      },
+      {
+        "product": "Unsulphured molasses",
+        "done": true
+      },
+      {
+        "product": "Vanilla extract",
+        "done": true,
+        "loc": "bake-cook"
+      },
+      {
+        "product": "Vanilla ice cream on sale",
+        "done": true
+      },
+      {
+        "product": "vinegar, sherry",
+        "done": true
+      },
+      {
+        "product": "Vit D",
+        "done": true
+      },
+      {
+        "product": "Vitamin C",
+        "done": true
+      },
+      {
+        "product": "Walnut oil",
+        "done": true
+      },
+      {
+        "product": "Walnuts",
+        "done": true
+      },
+      {
+        "product": "wasabe",
+        "done": true
+      },
+      {
+        "product": "White beans garbanzo connola",
+        "done": true
+      },
+      {
+        "product": "white wine for cooking",
+        "done": true,
+        "loc": "canned"
+      },
+      {
+        "product": "Whole Black peppers",
+        "done": true
+      },
+      {
+        "product": "Wine vinegar",
+        "done": true
+      },
+      {
+        "product": "Wocheshire sauce",
+        "done": true
+      },
+      {
+        "product": "Xanthum gum",
+        "done": true
+      },
+      {
+        "product": "Yellow pepper",
+        "done": true
+      },
+      {
+        "product": "Yogurt",
+        "done": true
+      },
+      {
+        "product": "zanthum gum",
+        "done": true,
+        "loc": "bake-cook"
+      },
+      {
+        "product": "Tofu",
+        "done": true
+      },
+      {
+        "product": "Popcorn",
+        "done": true
+      }
+    ],
+    "users": [
+      "tim7",
+      "tim1",
+      "noah",
+      "tim",
+      "demo",
+      "peri"
+    ],
+    "stores": [
+      {
+        "id": "s_Bereti",
+        "name": "Stop&Shop"
+      },
+      {
+        "id": "s_Bereto",
+        "name": "WholeFoods"
+      }
+    ]
+  },
+  "Camala": {
+    "_id": "546dedbd408c654a12409bb1",
+    "lid": "Camala",
+    "shops": "economy",
+    "stores": [],
+    "timestamp": 1525711402075,
+    "items": [
+      {
+        "product": "pipe dope",
+        "done": true
+      },
+      {
+        "product": "(3)1\" close hangers",
+        "done": true
+      },
+      {
+        "product": "(4) 10' 1\" BI",
+        "done": true
+      },
+      {
+        "product": "(2) 3/4 elbows",
+        "done": true
+      },
+      {
+        "product": "nipple rise",
+        "done": true
+      },
+      {
+        "product": "8' connector kit from 1/8\"x1/4 compression for fridge",
+        "done": true
+      },
+      {
+        "product": "aerator",
+        "done": true
+      },
+      {
+        "product": "3/4x1 reducer elbow BI",
+        "done": true
+      },
+      {
+        "product": "3/4 union",
+        "done": true
+      },
+      {
+        "product": "1\" union",
+        "done": true
+      },
+      {
+        "product": "3/4x1x1 Tee BI",
+        "done": true
+      },
+      {
+        "product": "(3) 1\" coupling",
+        "done": true
+      },
+      {
+        "product": "(3) 1\"elbows",
+        "done": true
+      },
+      {
+        "product": "1x3/4x1 Tee BI",
+        "done": true
+      },
+      {
+        "product": "TA10-3HL min flow spindle",
+        "done": true
+      },
+      {
+        "product": "1x3/4 reducer coupling bi",
+        "done": true
+      }
+    ],
+    "users": [
+      "tim"
+    ]
+  },
+  "Paposu": {
+    "_id": "5561ee425e6fe7e52eae5518",
+    "lid": "Paposu",
+    "shops": "code",
+    "stores": [],
+    "timestamp": 1522066799638,
+    "items": [
+      {
+        "product": "hp es6 token auth 2 pi",
+        "done": true
+      },
+      {
+        "product": "pi es6 token auth",
+        "done": true
+      },
+      {
+        "product": "001fix chair",
+        "done": false
+      },
+      {
+        "product": "02 TV    Mount Shelf",
+        "done": false
+      },
+      {
+        "product": "Greenhouse",
+        "done": false
+      },
+      {
+        "product": "Oatmeal",
+        "done": false
+      }
+    ],
+    "users": [
+      "tim"
+    ]
+  }
+}
