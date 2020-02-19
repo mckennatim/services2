@@ -25,6 +25,7 @@ var bearerToken = function(req,res, next){
     return
   }
   console.log('appids: ', appids)
+  console.log('appids.includes(tokdata.appId): ', appids.includes(tokdata.appId))
   if(appids.includes(tokdata.appId)){
     cons.log(tokdata)
     var q= conn.query('SELECT lids FROM `users` WHERE email= ? ', tokdata.email, function (error, results) {

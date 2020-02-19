@@ -1,23 +1,19 @@
 {
-  "name": "social-auth",
-  "version": "1.0.0",
-  "description": "## social-auth",
+  "name": "node-authentication",
   "main": "server.js",
-  "directories": {
-    "test": "test"
-  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "prod": "export NODE_ENV=production&&node server.js",
+    "dev": "export NODE_ENV=development&&nodemon -e .ejs,.js,.json server.js",
+    "proddev": "export NODE_ENV=production&&nodemon -e .ejs,.js,.json server.js",
+    "localprod": "set NODE_ENV=production&&nodemon -e .ejs,.js,.json server.js",
+    "localdev": "set NODE_ENV=development&&nodemon -e .ejs,.js,.json server.js",
+    "start": "set NODE_ENV=development&&nodemon -e .ejs,.js,.json server.js"
   },
-  "author": "Timothy S. McKenna <mckenna.tim@gmail.com>",
-  "license": "Timothy S. McKenna <mckenna.tim@gmail.com>",
   "dependencies": {
     "bcrypt-nodejs": "0.0.3",
     "body-parser": "~1.19.0",
     "connect-flash": "~0.1.1",
     "cookie-parser": "~1.4.4",
-    "cookie-session": "^2.0.0-beta.3",
     "ejs": "3.0.1",
     "express": "^4.17.1",
     "express-session": "^1.17.0",

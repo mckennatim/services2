@@ -1,4 +1,4 @@
-var moment = require('moment');
+var moment = require('moment-timezone');
 var env = require('../../env.json')
 var cfg = env[process.env.NODE_ENV || 'development']
 

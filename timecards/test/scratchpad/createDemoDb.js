@@ -1,5 +1,5 @@
 const mysqldump = require('mysqldump')
-var moment = require('moment');
+var moment = require('moment-timezone');
 var env = require('../../env.json')
 console.log('env: ', env)
 var cfg= env[process.env.NODE_ENV||'development']

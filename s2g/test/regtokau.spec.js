@@ -27,7 +27,7 @@ describe('regtokau:', function() {
         console.log(res.body.message)
         expect(e).to.eql(null)
         expect(res.body).to.be.a('object')
-        expect(res.body.message).to.eql('in root of registration module')
+        expect(res.body.message).to.eql('in root of s2g registration module')
         done()
       })
   })
@@ -38,6 +38,7 @@ describe('regtokau:', function() {
       .post(url)
       .send({token: token})
       .end(function(e, res) {
+        console.log('res.body: ', res.body)
         console.log(res.status);
         expect(res.status).to.be(200);
         done();

@@ -82,17 +82,29 @@ jdata.map((j,i)=>{
     })
 })
 
-lcode = JSON.stringify(
-['Minohu',   
-'Kiyidu',   
-'Gabuge',   
-'Bozoxi',   
-'Qoqida',   
-'Jutebi',   
-'Camala',   
-'Paposu' ] )
+// lcode = JSON.stringify(
+// ['Minohu',   
+// 'Kiyidu',   
+// 'Gabuge',   
+// 'Bozoxi',   
+// 'Qoqida',   
+// 'Jutebi',   
+// 'Camala',   
+// 'Paposu' ] )
 
-console.log('lcode: ', lcode)
+
+const ltarr = [
+  {lid: 'Minohu', type: 'lowes deport'},  
+  {lid: 'Kiyidu', type: '2chestnut'},  
+  {lid: 'Gabuge', type: 'dbs'},  
+  {lid: 'Bozoxi', type: 'todo'},  
+  {lid: 'Qoqida', type: 'down center'},  
+  {lid: 'Jutebi', type: 'groceries'},  
+  {lid: 'Camala', type: 'economy'},  
+  {lid: 'Paposu', type: 'code'}
+] 
+console.log('ltarr: ', ltarr)
+const lcode = JSON.stringify(ltarr)
 
 const recs = [
   ['tim', 'mckenna.tim@gmail.com', lcode],
@@ -108,7 +120,7 @@ CREATE TABLE `users` ( \
   `id` int(11) NOT NULL AUTO_INCREMENT,  \
   `user` varchar(60) NULL, \
   `email` varchar(100) NOT NULL, \
-  `lids` varchar(260) NULL, \
+  `lids` varchar(640) NOT NULL DEFAULT "[]", \
   PRIMARY KEY (`id`), \
   KEY (`user`), \
   UNIQUE KEY (`email`) \
@@ -118,3 +130,11 @@ INSERT INTO `users`(`user`, `email`, `lids`) VALUES ?; \
   console.log('uqry.sql: ', uqry.sql)
   console.log('results : ', results)
 })
+
+// PRIMARY KEY (`id`), \
+// KEY (`user`), \
+// UNIQUE KEY (`email`) \
+
+update items set done=IF(RAND()<.035,0,1) where lid = 'Jutebi';
+
+select * from items where lid='Jutebi' and done=0;

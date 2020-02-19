@@ -14,10 +14,7 @@
 <div class="col-sm-6 col-sm-offset-3">
 
     <h1><span class="fa fa-sign-in"></span> Signup for <%= appId %></h1>
-
-    <% if (message.length > 0) { %>
-        <div class="alert alert-danger"><%= message %></div>
-    <% } %>
+    appId <%=spaURL%> apiURL
 
     <!-- LOGIN FORM -->
     <form action="<%=base %>signup" method="post">
@@ -25,15 +22,15 @@
             <label>Email</label>
             <input type="email" class="form-control" name="email">
             <input type="hidden" name="appId" value="<%= appId %>" >
+            <input type="hidden" name="spaURL" value="<%= spaURL %>" >
+            <input type="hidden" name="apiURL" value="<%= apiURL %>" >
+            <input type="hidden" name="cbPath" value="<%= cbPath %>" >
         </div>
-        <p>We will send an apikey to your email. Then follow the link back to finish registration</p>
+        <p>This localhost verion of authentication does not do anything to authenticate. It just sends whatever email you put here without checking if its youdd</p>
         <button type="submit" class="btn btn-warning btn-lg">Signup</button>
     </form>
 
     <hr>
-
-    <p>Already have an account? <a href="/login">Login</a></p>
-    <p>Or go <a href="/">home</a>.</p>
 
     <div class="text-center">
         <p>A demo by <a href="http://scotch.io">Scotch</a>.</p>

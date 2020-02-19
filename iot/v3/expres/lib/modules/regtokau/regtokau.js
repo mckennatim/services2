@@ -12,6 +12,7 @@ var router = express.Router();
 
 module.exports = function() {
   router.get('/', function(req, res) {
+    cons.log("in root of registration module")
     res.jsonp({message: "in root of registration module"})
   });
 

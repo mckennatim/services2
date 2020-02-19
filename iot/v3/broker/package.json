@@ -12,7 +12,18 @@
   "keywords": [],
   "author": "Timothy S. McKenna <mckenna.tim@gmail.com> (http://mckennatim.github.io/mckennatim/)",
   "license": "MIT",
-  "dependencies": {},
+  "dependencies": {
+    "@conduitvc/mosca": "^2.8.3-patch.3",
+    "jwt-simple": "^0.5.6",
+    "moment-timezone": "0.5.27",
+    "mongoose": "^5.9.0",
+    "mysql": "^2.18.1",
+    "tracer": "1.0.2"
+  },
+  "devDependencies": {
+    "chai": "4.2.0",
+    "chai-immutable": "2.1.0"
+  },
   "directories": {
     "test": "test"
   }

@@ -5,7 +5,7 @@
 var express  = require('express');
 var app      = express();
 var mongoose = require('mongoose');
-var passport = require('passport');
+// var passport = require('passport');
 var flash    = require('connect-flash');
 
 var morgan       = require('morgan');
@@ -22,9 +22,12 @@ var port     = cfg.port.express;
 
 
 // configuration ===============================================================
-mongoose.connect(configDB.url, { useNewUrlParser: true }); // connect to our database
+mongoose.connect(configDB.url, {
+    useNewUrlParser: true,
+    useUnifiedTopology: true
+}); // connect to our database
 
-require('./app/passport')(passport); // pass passport for configuration
+// require('./app/passport')(passport); // pass passport for configuration
 
 // set up our express application
 app.use(morgan('dev')); // log every request to the console
@@ -40,12 +43,12 @@ app.use(session({
     resave: true,
     saveUninitialized: true
 }));
-app.use(passport.initialize());
-app.use(passport.session()); // persistent login sessions
+// app.use(passport.initialize());
+// app.use(passport.session()); // persistent login sessions
 app.use(flash()); // use connect-flash for flash messages stored in session
 // routes ======================================================================
 //require('./app/routes.js')(app, passport); // load our routes and pass in our app and fully configured passport
-var routes = require('./app/routes.js')(passport); // load our routes and pass in our app and fully configured passport
+var routes = require('./app/routes.js')(); // load our routes and pass in our app and fully configured passport
 var base = cfg.base
 console.log(base)
 

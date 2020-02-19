@@ -7,7 +7,7 @@ var fs = require('fs');
 var env = require('../env.json')
 var cfg= env[process.env.NODE_ENV||'development']
 var secret = cfg.secret
-var moment = require('moment');
+var moment = require('moment-timezone');
  
 var httpLoc = cfg.url.local +':'+ cfg.port.express + '/api/'
 //expires in an hour

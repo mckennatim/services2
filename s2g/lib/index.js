@@ -17,5 +17,5 @@ app.set('port', cfg.port.express || 3011);
 var server = http.createServer(app);
 
 server.listen(app.get('port'), function() {
-    console.log('timecards server listening on port ' + server.address().port);
+    console.log('s2g server listening on port ' + server.address().port);
 });

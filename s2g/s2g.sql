@@ -111,3 +111,28 @@ UNLOCK TABLES;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
 -- Dump completed on 2020-01-24 14:43:45
+
+delete from `users` where email='ckenn.tim@gmail.com';
+delete from `users` where id=412;
+
+ALTER TABLE `users` CHANGE `lids` `lids` VARCHAR(260) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL DEFAULT '[]';
+
+select users.lids, lists.type from users 
+join lists on lists.lid = users.lid ;
+
+
+select * from users;
+
+select * from items;
+
+SELECT product FROM items WHERE lid='Jutebi' AND product like("%ba%");
+
+SELECT * FROM `items`ORDER BY lid,product
+
+SELECT lid, product, COUNT(product) FROM items
+group by lid,product
+HAVING COUNT(product) > 1;
+
+update items set done=IF(RAND()<.03,0,1) where lid = 'Jutebi';
+
+select * from items where lid='Jutebi' and done=0;

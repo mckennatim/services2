@@ -1,4 +1,4 @@
-var moment = require('moment');
+var moment = require('moment-timezone');
 const fs = require('fs');
 var nodemailer = require('nodemailer')
 let mysqldump = require('mysqldump')

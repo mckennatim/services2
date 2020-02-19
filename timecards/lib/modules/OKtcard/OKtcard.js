@@ -1,5 +1,5 @@
 var express = require('express');
-var moment = require('moment');
+var moment = require('moment-timezone');
 var combinePuJc = require('../../utilities').combinePuJc
 var cons = require('tracer').console();
 var conn = require('../../db/mysqldb')

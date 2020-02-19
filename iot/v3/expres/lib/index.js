@@ -12,7 +12,13 @@ var tom = require('./modules/tom')();
 const signin = require('./modules/signin')();
 
 var mongoose = require('mongoose');
-mongoose.connect(cfg.db.url, { useNewUrlParser: true, useCreateIndex: true });
+mongoose.connect(
+  cfg.db.url, 
+  { 
+    useNewUrlParser: true, 
+    useCreateIndex: true ,
+    useUnifiedTopology: true }
+  );
 console.log(cfg.db.url)
 
 

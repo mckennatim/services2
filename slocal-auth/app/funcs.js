@@ -41,10 +41,10 @@ const sendToApi=(appId, email, apiURL, callback)=>{
   cons.log(apiURL)
   cons.log("gonna send to /api/reg/auth/")
   superagent
-    .post(apiURL)
+    .post(apiURL+'/reg/auth')
     .send({token: token})
     .end(function(e, res){
-      //cons.log(res.body)
+      cons.log(res.body)
       callback(res.body)
     })
   // setTimeout(callback, 2000)

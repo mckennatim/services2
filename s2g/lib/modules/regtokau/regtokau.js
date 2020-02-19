@@ -10,18 +10,19 @@ var router = express.Router();
 
 module.exports = function() {
   router.get('/', function(req, res) {
-    res.jsonp({ message: "in root of registration module" })
+    res.jsonp({ message: "in root of s2g registration module" })
   });
 
   router.post('/auth', function(req, res) {
-    cons.log("in api/reg/auth")
+    cons.log("in s2g api/reg/auth")
     cons.log('req.body: ', req.body)
     const payload = jwt.decode(req.body.token, secret)
     const emailid = payload.email
     const appid = payload.appId
     cons.log(payload)
     if(cfg.appIds.includes(appid)){
-      const insobj = {email: emailid}
+      const user = emailid.split('@')[0]
+      const insobj = {user, email: emailid}
       const q = conn.query(' \
       INSERT INTO `users` SET ? ON DUPLICATE KEY UPDATE ?' 
       ,[insobj,insobj], (errors,results)=>{

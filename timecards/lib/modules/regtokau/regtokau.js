@@ -1,6 +1,6 @@
 var express = require('express');
 var jwt = require('jwt-simple');
-var moment = require('moment');
+var moment = require('moment-timezone');
 var env = require('../../../env.json')
 var cfg = env[process.env.NODE_ENV || 'development']
 var secret = cfg.secret

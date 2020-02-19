@@ -13,6 +13,21 @@
   "author": "Timothy S. McKenna <mckenna.tim@gmail.com> (http://mckennatim.github.io/mckennatim/)",
   "license": "MIT",
   "dependencies": {
-
+    "body-parser": "^1.19.0",
+    "cookie-parser": "1.4.4",
+    "express": "^4.17.1",
+    "jwt-simple": "^0.5.6",
+    "moment-timezone": "0.5.27",
+    "mongoose": "^5.9.0",
+    "morgan": "^1.9.1",
+    "mysql": "^2.18.1",
+    "superagent": "^5.2.1",
+    "tracer": "1.0.2",
+    "underscore": "1.9.2"
+  },
+  "devDependencies": {
+    "chai": "4.2.0",
+    "expect.js": "0.3.1",
+    "should": "13.2.3"
   }
 }

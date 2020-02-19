@@ -1,5 +1,5 @@
 {
-    "name": "reroox",
+    "name": "timecards",
     "version": "1.0.0",
     "description": "all packages used are ins ervices/node_modules",
     "main": "index.js",
@@ -14,6 +14,24 @@
     "author": "Timothy S. McKenna <mckenna.tim@gmail.com> (http://mckennatim.github.io/mckennatim/)",
     "license": "MIT",
     "dependencies": {
+      "body-parser": "^1.19.0",
+      "cookie-parser": "1.4.4",
+      "express": "^4.17.1",
+      "jszip": "^3.2.2",
+      "jwt-simple": "^0.5.6",
+      "moment-timezone": "0.5.27",
+      "morgan": "^1.9.1",
+      "mysql": "^2.18.1",
+      "mysqldump": "^3.1.0",
+      "nodemailer": "6.4.2",
+      "tracer": "1.0.2"
     },
-    "devDependencies": {}
+    "devDependencies": {
+      "chai": "4.2.0",
+      "chai-immutable": "2.1.0",
+      "expect": "25.1.0",
+      "should": "13.2.3",
+      "superagent": "^5.2.1",
+      "underscore": "1.9.2"
+    }
 }

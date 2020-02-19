@@ -1,7 +1,7 @@
 var express = require('express');
 var router = express.Router();
 var cons = require('tracer').console();
-var moment = require('moment');
+var moment = require('moment-timezone');
 var conn = require('../../db/mysqldb')
 // var combinePuJc = require('../../utilities').combinePuJc
 var bearerTokenCoid = require('../regtokau/strategy').bearerTokenCoid

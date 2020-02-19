@@ -1,4 +1,4 @@
-var mosca = require('mosca')
+var mosca = require('@conduitvc/mosca')
 var cons = require('tracer').console();
 var my=require('./mysqldb')
 var cfg= my.cfg
