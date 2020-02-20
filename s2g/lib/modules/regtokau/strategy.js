@@ -36,22 +36,14 @@ var bearerToken = function(req,res, next){
         next()
         return
       }
-      cons.log(results.length)
+      cons.log(results)
       if(!results){
         req.userTok = {auth: false, message: 'no user'}
         next()
         return
-      }
-      if(results.length>0){
-        if(results.length==1 & results[0].devid==null){
-          req.userTok = {auth: true, message: 'no apps', emailId: tokdata.email}
-          next()
-        }else{
-          req.userTok = {auth: true, message: 'user has apps', emailId: tokdata.email, appId: tokdata.appId}
-          next()
-        }
       }else{
-        req.userTok = {auth: false, message: 'no user'}
+        
+        req.userTok = {auth: true, message: 'hay maybe lids', emailId: tokdata.email, lids:results[0].lids}
         next()
       }
     })

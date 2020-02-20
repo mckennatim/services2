@@ -55,6 +55,7 @@ const sendToSpa=(cburl,appId,email,message,res)=>{
   if(message.auth){
     const payload= {appId: appId, email: email}
     const token =jwt.encode(payload, cfg.apisecrets.geniot)
+    cons.log(cburl+'?email='+email+'&token='+token)
     res.redirect(cburl+'?email='+email+'&token='+token);        
   }else{
     var qmess =encodeURIComponent(message.message)
