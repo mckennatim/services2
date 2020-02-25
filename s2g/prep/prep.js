@@ -135,6 +135,3 @@ INSERT INTO `users`(`user`, `email`, `lids`) VALUES ?; \
 // KEY (`user`), \
 // UNIQUE KEY (`email`) \
 
-update items set done=IF(RAND()<.035,0,1) where lid = 'Jutebi';
-
-select * from items where lid='Jutebi' and done=0;

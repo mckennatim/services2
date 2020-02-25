@@ -45,7 +45,7 @@ module.exports = function() {
       const lididx = lidinfo.findIndex((l)=>l.lid==lid)
       console.log('lididx, lidinfo: ', lididx, lidinfo)
       if(lididx > -1){
-        var q =conn.query('SELECT * FROM items WHERE lid=? AND done=0;', lid , function(error, results){
+        var q =conn.query('SELECT lid, product, done, jsod FROM items WHERE lid=? AND done=0;', lid , function(error, results){
           cons.log(q.sql)
           console.log('results: ', results)
           let items=[]
