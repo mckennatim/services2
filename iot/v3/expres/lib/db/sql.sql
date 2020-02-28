@@ -1129,3 +1129,15 @@ INSERT INTO `ssaRE`(`taxyear`, `ein`)
 VALUES ('2019','222333445');
 
 select * from ssaRE;
+
+CREATE TABLE devs_auth AS select devid, `owner`as auth from devs order by devid;
+
+/*
+Add app developer to my device(s)
+Show my devices (by location)
+*/
+ALTER TABLE `geniot`.`devs_auth` ADD PRIMARY KEY (`devid`);
+
+ALTER TABLE devs_auth ADD id int(11) NOT NULL AUTO_INCREMENT, ADD PRIMARY KEY (id);
+
+ALTER TABLE `geniot`.`devs_auth` ADD UNIQUE `devauth` (`devid`, `auth`);

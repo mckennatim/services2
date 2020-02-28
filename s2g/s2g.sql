@@ -136,3 +136,15 @@ HAVING COUNT(product) > 1;
 update items set done=IF(RAND()<.03,0,1) where lid = 'Jutebi';
 
 select * from items where lid='Jutebi' and done=0;
+
+USE s2g;
+INSERT INTO items
+SET `name` = 'mckenna.tim@gmail.com',
+    `selected` = '[0,0,0,1,1,0,0,0,0,1,0]'
+ON DUPLICATE KEY
+UPDATE 
+    `name` = 'mckenna.tim@gmail.com',
+    `selected` = '[1,1,0,1,1,0,0,0,0,1,0]'
+
+
+Select * from items where id = 372;
