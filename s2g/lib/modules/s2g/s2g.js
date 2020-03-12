@@ -16,19 +16,15 @@ module.exports = function() {
       cons.log(mess)
       res.jsonp({err:mess})
     }else{
-      cons.log(req.userTok);
       var q =conn.query('SELECT * FROM users WHERE email=?;', req.userTok.emailId , function(error, results){
-        cons.log(q.sql)
-        console.log('results: ', results)
         let lists =[]
         let err
         if(!error){
           lists= JSON.parse(results[0].lids)
-          console.log('lists: ', lists)
         }else{
           err =error.code
         }
-        res.jsonp({lists,err})
+        res.jsonp({lists, user:results[0].user, email:results[0].email ,err})
       })
     }
   })
@@ -36,18 +32,14 @@ module.exports = function() {
   router.get('/items/:lid', bearerToken, function(req,res){
     if(!req.userTok.auth){
       var mess={message: 'in get /s2g/lists (not authoried)-'+req.userTok.message}
-      cons.log(mess)
       res.jsonp({err:mess})
     }else{
       const lid = req.params.lid
-      cons.log(req.userTok);
       const lidinfo = JSON.parse(req.userTok.lids)
+      // console.log('lidinfo: ', lidinfo)
       const lididx = lidinfo.findIndex((l)=>l.lid==lid)
-      console.log('lididx, lidinfo: ', lididx, lidinfo)
       if(lididx > -1){
-        var q =conn.query('SELECT lid, product, done, jsod FROM items WHERE lid=? AND done=0;', lid , function(error, results){
-          cons.log(q.sql)
-          console.log('results: ', results)
+        var q =conn.query('SELECT lid, product, done, jsod,loc FROM items WHERE lid=? AND done=0 ORDER BY product;', lid , function(error, results){
           let items=[]
           let err
           if(!error){
@@ -66,19 +58,31 @@ module.exports = function() {
   router.get('/item/:lid/:qry', bearerToken, function(req,res){
     if(!req.userTok.auth){
       var mess={message: 'in get /s2g/item/list/qry (not authoried)-'+req.userTok.message}
-      cons.log(mess)
       res.jsonp(mess)
     }else{
       const {lid, qry }= req.params
       let qph = `%${qry}%`
-      cons.log(req.userTok);
       var q =conn.query('SELECT * FROM items WHERE lid=? AND product like(?) AND done=1;', [lid,qph] , function(error, results){
-        cons.log(q.sql)
-        console.log('results: ', results)
         const items= results
-        console.log('items: ', items)
         res.jsonp(items)
       })
+    }
+  })
+
+  router.get('/stores/:lid', bearerToken, function(req,res){
+    if(!req.userTok.auth){
+      var mess={message: 'in get /s2g/stores (not authoried)-'+req.userTok.message}
+      cons.log(mess)
+      res.jsonp({err:mess})
+    }else{
+      const {lid}=req.params
+      console.log('req.userTok: ', req.userTok)
+      const qry = conn.query('SELECT * FROM stores WHERE lid =? ORDER BY store,idx; SELECT DISTINCT loc FROM stores WHERE lid=? ORDER BY loc;',[lid,lid], (err,results)=>{
+        console.log('qry.sql: ', qry.sql)
+        console.log('results: ', results)
+        res.jsonp({stores:results[0], locs:results[1]})
+      })
+      
     }
   })
 

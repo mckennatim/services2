@@ -1,4 +1,18 @@
 # iot summary
+## owner admin user obs
+Signin gives you access to a persons locations and to the apps at those locations.
+
+Proposing a heirarchy for app_loc so you only have one role either admin, user or obs. All run the same app
+
+I guess I am the owner until I 'sell' the device.
+
+Admin functions are accessible from signin. If you are an owner you have superpowers and you can bestow them on others. 
+
+An owner can give admin access to app developers for some device's specs by adding them to devs auth.
+
+App developer
+
+
 ## version 3 v3
 There is no compelling reason the change brokers authenticate or authorize. 
 ### table analysis

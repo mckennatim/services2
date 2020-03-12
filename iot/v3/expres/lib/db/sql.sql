@@ -1141,3 +1141,9 @@ ALTER TABLE `geniot`.`devs_auth` ADD PRIMARY KEY (`devid`);
 ALTER TABLE devs_auth ADD id int(11) NOT NULL AUTO_INCREMENT, ADD PRIMARY KEY (id);
 
 ALTER TABLE `geniot`.`devs_auth` ADD UNIQUE `devauth` (`devid`, `auth`);
+
+SELECT devs_auth.devid, devs.specs FROM devs_auth JOIN devs ON devs.devid = devs_auth.devid WHERE devs_auth.auth = 'mckenna.tim@gmail.com' AND devs.locid='12ParleyVale' 
+
+SELECT devid FROM devs WHERE devid IN ('CYURD001', 'CYURD002')
+
+SELECT * from items where lid='Jutebi' AND done=0

@@ -10,6 +10,7 @@ io.on('connect', (socket) => {
 
 
   socket.on('switch2room', (room)=>{
+    console.log('swwwwww')
     console.log('switch2room: ', room)
     socket.leaveAll()
     socket.join(room, ()=>{
@@ -19,11 +20,17 @@ io.on('connect', (socket) => {
   })
 
   socket.on('message', (message)=>{
-    io.in(message.lid).emit('message',message)
     console.log('message: ', message)
-    const qry = conn.query('INSERT INTO items SET ? ON DUPLICATE KEY UPDATE ?', [message,message], (error,results)=>{
-      console.log('results: ', results)
-    })
+    io.in(message.lid).emit('message',message)
+    if(message.done==-1){
+      const qry=conn.query('DELETE FROM items WHERE lid=? AND product=?',[message.lid,message.product],()=>{
+        console.log('qry.sql: ', qry.sql)
+      })
+    }else{
+      const qry = conn.query('INSERT INTO items SET ? ON DUPLICATE KEY UPDATE ?', [message,message], (error,results)=>{
+        console.log('qry.sql: ', qry.sql)
+      })
+    }
   })
 });
 

@@ -67,11 +67,42 @@ module.exports = function() {
       cons.log(mess)
       res.jsonp(mess)  
     }else{ 
-      const data= req.body
-      console.log('data: ', data)
-      conn.query('INSERT INTO app_loc SET ? ON DUPLICATE KEY UPDATE ?',[data,data])
+      const {apploc,devs}= req.body
+      console.log('apploc: ', apploc)
+      console.log('devs: ', devs)
+      const applocbl = {appid:apploc.appid, locid:apploc.locid, userid:'', role:'user'}
+      const uapploc = {...applocbl, userid:req.userTok.emailId, auth:1}
+      devs.map((d)=>{
+        conn.query('SELECT owner FROM devs WHERE devid=?', d, (error,result)=>{
+          const owner =  result[0] &&result[0].owner ? result[0].owner : undefined
+          if(owner){
+            const data = {...applocbl, userid:owner, auth:1}
+            conn.query('INSERT INTO app_loc_user SET ? ON DUPLICATE KEY UPDATE ?;',[data,data])
+          }
+        })
+      })
+      conn.query('INSERT INTO app_loc SET ? ON DUPLICATE KEY UPDATE ?;\
+      INSERT INTO app_loc_user SET ? ON DUPLICATE KEY UPDATE ?;',[apploc,apploc,uapploc,uapploc])
       res.jsonp({message:'working on it'}) 
     }  
+  })
+
+  router.post('/isalldevs', bearerToken, (req,res)=>{
+    if(!req.userTok.auth){
+      var mess={auth:false, message: 'in get /signin/apploc (not authoried)-'+req.userTok.message}
+      cons.log(mess)
+      res.jsonp(mess)  
+    }else{
+      console.log('req.body: ', req.body)
+      const qry=conn.query('SELECT devid FROM devs WHERE devid IN (?)', [req.body], (error,result)=>{
+        console.log('qry.sql`: ', qry.sql)
+        let issame = true
+        if(result.length !=req.body.length){
+          issame =false
+        }
+        res.jsonp(issame)
+      })
+    }   
   })
 
   return router

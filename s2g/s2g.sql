@@ -135,6 +135,8 @@ HAVING COUNT(product) > 1;
 
 update items set done=IF(RAND()<.03,0,1) where lid = 'Jutebi';
 
+update items set done=IF(RAND()<.03,0,1) where lid = 'Minohu';
+
 select * from items where lid='Jutebi' and done=0;
 
 USE s2g;
@@ -148,3 +150,73 @@ UPDATE
 
 
 Select * from items where id = 372;
+
+update items set done=0 where LENGTH(jsod)>3 AND lid='Jutebi' ;
+
+DROP TABLE IF EXISTS `stores` ;
+
+CREATE TABLE `stores` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `lid` varchar(20) NOT NULL,
+  `store`varchar(40) NOT NULL,
+  `loc` varchar(200) NOT NULL,
+  `idx` int(3) DEFAULT '0',
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `lidstlo` (`lid`,`store`,`loc`),
+  KEY `lid` (`lid`),
+  KEY `store` (`store`),
+  KEY `loc` (`loc`),
+  KEY `idx` (`idx`)
+) ENGINE=InnoDB AUTO_INCREMENT=754 DEFAULT CHARSET=utf8;
+
+DELETE FROM stores WHERE lid='Jutebi';
+
+INSERT INTO stores (lid,store,loc,idx) VALUES
+  ('Jutebi','WholeFoodJP', 'produce',0),
+  ('Jutebi','WholeFoodJP', 'bulk',1),
+  ('Jutebi','WholeFoodJP', 'meat',2),
+  ('Jutebi','WholeFoodJP', 'seafood',3),
+  ('Jutebi','WholeFoodJP', 'pharma',4),
+  ('Jutebi','WholeFoodJP', 'paper/clean',5),
+  ('Jutebi','WholeFoodJP', 'intl',6),
+  ('Jutebi','WholeFoodJP', 'coffee/tea',7),
+  ('Jutebi','WholeFoodJP', 'can/jar',8),
+  ('Jutebi','WholeFoodJP', 'dairy',9),
+  ('Jutebi','WholeFoodJP', 'cook/bake',10),
+  ('Jutebi','WholeFoodJP', 'pkg',11),
+  ('Jutebi','WholeFoodJP', 'frozen',12),
+  ('Jutebi','WholeFoodJP', 'deli',13),
+  ('Jutebi','WholeFoodJP', 'bakery',14),
+  ('Jutebi','Stop&ShopJP', 'produce',1),
+  ('Jutebi','Stop&ShopJP', 'deli',2),
+  ('Jutebi','Stop&ShopJP', 'seafood',3),
+  ('Jutebi','Stop&ShopJP', 'coffee/tea',3),
+  ('Jutebi','Stop&ShopJP', 'pkg',4),
+  ('Jutebi','Stop&ShopJP', 'can/jar',5),
+  ('Jutebi','Stop&ShopJP', 'meat',6),
+  ('Jutebi','Stop&ShopJP', 'bulk',7),
+  ('Jutebi','Stop&ShopJP', 'intl',8),
+  ('Jutebi','Stop&ShopJP', 'cook/bake',9),
+  ('Jutebi','Stop&ShopJP', 'pharma',10),
+  ('Jutebi','Stop&ShopJP', 'paper/clean',11),
+  ('Jutebi','Stop&ShopJP', 'dairy',12),
+  ('Jutebi','Stop&ShopJP', 'frozen',13),
+  ('Jutebi','Stop&ShopJP', 'bakery',14);
+
+SELECT DISTINCT loc FROM stores WHERE lid='Jutebi' ORDER BY loc;
+
+SELECT * FROM stores WHERE lid = 'Jutebi' AND store ='WholeFoods' ORDER BY idx
+
+UPDATE items  SET done = 0 WHERE  lid='Jutebi' AND done = 1
+UPDATE items  SET done = 0 WHERE  lid='Jutebi' AND loc IS NULL
+
+UPDATE items  SET jsod = '' WHERE  jsod= '{}'
+
+
+UPDATE items  SET loc = 'fish' WHERE  lid='Jutebi' AND loc = 'seafood';
+
+UPDATE items  SET loc = 'can/jar' WHERE  lid='Jutebi' AND loc = 'packaged';
+
+select * from items where loc='fish'
+
+update items set done=IF(RAND()<.03,0,1) where lid = 'Jutebi';
