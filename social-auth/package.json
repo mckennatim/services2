@@ -24,7 +24,7 @@
     "jwt-simple": "^0.5.6",
     "mongoose": "^5.9.0",
     "morgan": "^1.9.1",
-    "nodemailer": "6.4.2",
+    "nodemailer": "6.4.16",
     "passport": "0.4.1",
     "passport-facebook": "3.0.0",
     "passport-github": "^1.1.0",
