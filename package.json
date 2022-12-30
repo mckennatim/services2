@@ -54,7 +54,7 @@
     "eslint-plugin-mocha": "^6.2.2",
     "expect": "25.1.0",
     "expect.js": "0.3.1",
-    "mocha": "^7.0.1",
+    "mocha": "^10.2.0",
     "mocha-clean": "1.0.0",
     "nodemon": "^2.0.2",
     "passport-facebook": "3.0.0",
